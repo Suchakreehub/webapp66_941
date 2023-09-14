@@ -7,7 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello Github</h1>
-    Hello nani
+    <?php
+    function test($n){
+        return $n % 3 == 0 || $n % 7 == 0 ;
+    }
+    var_dump(test(3)); echo "<br>";
+    var_dump(test(14)); echo "<br>";
+    var_dump(test(12)); echo "<br>";
+    var_dump(test(37)); echo "<br>";
+    ?>
 </body>
 </html>

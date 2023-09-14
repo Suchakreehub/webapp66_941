@@ -7,7 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello Github</h1>
-    Hello nani
+<?php
+function test($temp1, $temp2){
+    return $temp1 < 0 && $temp2 > 100 || $temp2 < 0 && $temp2 > 100;
+    }
+    var_dump(test(120, -1));echo "<br>";
+    var_dump(test(-1, 120));echo "<br>";
+    var_dump(test(2, 120));echo "<br>";
+?>
+
 </body>
 </html>
